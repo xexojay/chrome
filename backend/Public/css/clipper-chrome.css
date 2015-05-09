@@ -1,0 +1,190 @@
+body,p,ul,li,form,input,select,a{margin:0;padding:0}
+body{padding-bottom:10px;font:12px/100% arial,sans-serif;color:#333;}
+a{color:#1190D3;text-decoration:none}
+a:hover{text-decoration:underline}
+select{width:160px;height:28px;outline:none;}
+img{border:none; vertical-align:middle;}
+
+.hd{
+    position:relative;
+    height:30px;
+    line-height:30px;
+    border-bottom:1px solid #009AE2;
+    background:#f5f5f5;
+    background:-webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f5f5f5));
+    background:-moz-linear-gradient(top, #fff, #f5f5f5 100%);
+    padding:0 30px 0 10px;
+}
+#logout{
+    position:absolute;
+    right:30px;
+    top:0px;
+    text-decoration:underline;
+    color:#06c;
+    cursor:pointer;
+}
+.hd .title{
+    font-weight:bold;
+}
+.hd .title img{
+    margin: -1px 0 1px;
+}
+.hd .user{
+position:absolute;
+right:60px;
+top:0px;
+}
+.close{
+position:absolute;
+right:10px;
+top:10px;
+width:10px;
+height:10px;
+overflow:hidden;
+background:url(../images/clipper-chrome-sprite.png) -48px 0px;
+}
+.close:hover{background-position:-48px -10px;}
+.bd{
+    padding:10px;
+    border-top:1px solid #f2f2f2;
+    background:#fff;
+}
+.row{
+    font-size:14px;
+    margin-bottom:10px;
+    line-height:26px;
+}
+.login-error{
+    font-size:12px;
+    margin-bottom:0px;
+}
+.login-error .row-bd{
+    margin-left:1em;
+}
+.indent .row-bd{
+    font-size:12px;
+}
+.indent label{
+    margin-right:88px;
+}
+.indent label input{
+    vertical-align:-2px;
+}
+.indent .login-btn{
+    margin-right:50px;
+}
+.bd .error{margin-bottom:5px;line-height:120%}
+.bd .left,.bd .right{display:inline-block;vertical-align:middle;}
+.bd .right{width:264px;}
+.bd .left{height:180px;width:225px;border-left:1px solid #dedede;margin-left:15px;}
+.bd .left iframe{width:100%;height:100%;border:0;}
+.left .openid{padding:20px 0 0 40px;}
+.left a:hover{text-decoration:none;background-color:#ffffff;}
+.sina,.qq,.tqq,.download{background:url(../images/sprit.png) no-repeat;height:29px;line-height:28px;font-family:Î¢ÈíÑÅºÚ;}
+.sina,.qq,.tqq{display:block;background-color:#f2f4f5;border:1px solid #dedede;width:120px;color:#757575;margin-bottom:10px;padding-left:40px;}
+.sina{background-position:5px 5px}
+.qq{background-position:5px -25px}
+.tqq{background-position:5px -57px}
+.download{display:inline-block;background-position:0px -90px;width:110px;margin-left:50px;text-align:right;}
+.bd .row:last-child{margin-bottom:0;}
+.bd .row-hd,.bd .row-bd{display:inline-block;vertical-align:middle}
+.bd .row-hd{min-width:3em;_width:3em;margin-right:.7em;text-align:right}
+.text{height:22px;padding:2px;border:1px solid;border-color:#d9d9d9;background:#fafafa;outline:none;}
+.title-input{min-width:256px;}
+select:focus,.text:focus{border-color:#06c;background:#fff;
+    box-shadow:0 0 3px #06c;
+    background:-webkit-gradient(linear, 0 0, 0 10%, from(#e5e5e5), to(#fff));-webkit-box-shadow:0 0 3px #06c;
+    background:-moz-linear-gradient(top, #e5e5e5, #fff 10%);-moz-box-shadow:0 0 3px #06c;
+}
+.login-btn,.fullpage-btn{
+    width:70px;
+}
+.btn {
+        display: inline-block;
+        padding: 5px 10px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        font-family: "Microsoft YaHei","??????","Microsoft JhengHei","???????",STHeiti,sans-serif;
+        cursor: pointer;
+        color: #3A3A3A;
+        background: white;
+        border: 1px solid #D2D2D2;
+        text-shadow: 1px 1px 0 white;
+        transition: all .3s ease-in-out;
+        border-radius: 2px;
+        box-shadow: 1px 1px 0 whiteSmoke;
+        -webkit-transition: all .3s ease-in-out;
+        background: -webkit-linear-gradient(top, white, whiteSmoke);
+        -moz-transition: all .3s ease-in-out;
+        background: -moz-linear-gradient(top, white, whiteSmoke 100%);
+        -o-transition: all .3s ease-in-out;
+    }
+    .btn:hover {
+        color: #2A2A2A;
+        border-color: #999;
+        background: #F2F2F2;
+        box-shadow: 1px 1px 2px #D5D5D5;
+        background: -webkit-linear-gradient(top, white, #F2F2F2);
+        background: -moz-linear-gradient(top, white, #F2F2F2 100%);
+    }
+    .blue-btn:hover {
+        color: white;
+        background: #009AE2;
+        border-color: #148FD4;
+        background: -webkit-linear-gradient(top, #00A3E5, #008EDD);
+        background: -moz-linear-gradient(top, #00A3E5, #008EDD 100%);
+    }
+    .blue-btn {
+        color: white;
+        background: #29A7E5;
+        border-color: #148FD4;
+        text-shadow: 1px 1px 0 #148FD4;
+        background: -webkit-linear-gradient(top, #32ADE8, #249FE3);
+        background: -moz-linear-gradient(top, #32ADE8, #249FE3 100%);
+    }
+.btn-gray{background:#fff}
+.btn-gray:hover{border-color:#999;background:#f2f2f2;
+    box-shadow:0 0 0;
+    -webkit-box-shadow:0 0 0;
+    -moz-box-shadow:0 0 0;
+}
+.btn-gray:active{background:url(../images/note-web-sprite-x.png) repeat-x left -576px}
+.btn-disabled{background:#e2e2e2;cursor:default}
+.btn-disabled:hover{border-color:#d9d9d9;
+    box-shadow:0 0 0;
+    -webkit-box-shadow:0 0 0;
+    -moz-box-shadow:0 0 0;
+}
+.headline{font-size:1.6em}
+.highlight{color:#D93041}
+.ft{margin-top:10px;}
+.tips { background: #FAFAFA;border-top: 1px solid #F2F2F2;color:#666;height:30px;line-height:30px;padding-left:15px;}
+.tips .icon{
+    width:24px;
+    height:24px;
+    display:inline-block;
+   vertical-align:middle;
+    background:url(../images/clipper-chrome-sprite.png) 0 -75px;
+}
+
+/* ------- loading ------- */
+.loading{position:absolute;z-index:9999;top:50%;left:50%;width:180px;height:22px;margin:-12px 0 0 -91px;font-weight:bold;text-align:center;line-height:22px;border:1px solid #fff999;background-color:rgba(255,249,153,.9)!important;background:#fff999;
+    border-radius:5px;
+    -khtml-border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+
+
+#doc-login .text{min-width:200px;}
+#doc-fullPage .row-hd,#doc-selectPage .row-hd{min-width:3.5em;}
+#doc-fullPage .btns-row,#doc-selectPage .btns-row{margin-left:4.2em}
+#doc-selectPage .btns-row{margin-top:45px;}
+
+/*domain selector*/
+.domainSelector, .domainSelector *{font-size:12px; line-height:normal;}
+.domainSelector {border:1px solid #7eb5e2; width:165px;} .domainSelector .title {height:15px;padding:3px 0 3px 2px;color:#2B2B2B;background:none repeat scroll 0 0 #F6F6F6;}
+.domainSelector table td table td {padding:3px;}
+.domainSelector {position:fixed}
+

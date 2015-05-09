@@ -1,0 +1,22 @@
+{
+   "actionTitle": {
+      "description": "按钮标题",
+      "message": "一键保存到Dulishuo"
+   },
+   "extDescription": {
+      "description": "扩展描述",
+      "message": "一键保存到Dulishuo"
+   },
+   "extName": {
+      "description": "扩展名称",
+      "message": "Dulishuo资讯收纳盒"
+   },
+   "pageMenu": {
+      "description": "菜单",
+      "message": "save to Dulishuo"
+   },
+   "selectionMenu": {
+      "description": "菜单(选中)",
+      "message": "save to Dulishuo"
+   }
+}
